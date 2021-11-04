@@ -27,6 +27,13 @@ const catalogo = [
     anoLancamento: 2013,
     emCartaz: false
   },
+  {
+    codigo: 3,
+    titulo: 'Filme 4',
+    duracao: 2.12,
+    atores: ['Ingrid', 'Max', 'Luis'],
+    anoLancamento: 2018,
+    emCartaz: false
 ]
 
 function adicionarFilme(titulo, duracao, atores, anoLancamento, emCartaz) {
