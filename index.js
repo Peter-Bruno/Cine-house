@@ -6,7 +6,7 @@ const catalogo = [
   {
     codigo: 0,
     titulo: 'Filme Um',
-    duracao: 2,
+    duracao: 3,
     atores: ['João', 'José', 'Maria'],
     anoLancamento: 2016,
     emCartaz: false
