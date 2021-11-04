@@ -1,0 +1,12 @@
+function adicionarHttp(url) {
+    return "http://"+url
+}
+
+function processar(lista, funcao){
+   let novo =[]
+for(let i=0; i<lista.length; i++){
+    novo.push (funcao(lista[i]))
+}
+return novo
+
+}
